@@ -2,6 +2,7 @@ package LaOca;
 
 import java.util.Random;
 
+
 public class Oca {
 
 	public static void main(String[] args) {
@@ -11,10 +12,18 @@ public class Oca {
 			tablero[i]=Casilla.blanco;
 			System.out.println(tablero[i]);
 		}
-
 	}
-	public static void colocarPozo(Casilla[] tablero) {
-		
-	}
+	/**
+	 * cambia la naturaleza de la casilla 19( y solo esa)
+	 * que pasa a ser posada
+	 * @param tablero
+	 */
+	public static void colocarPosada(Casilla[] tablero) {}
+	/**
+	 * Cambia la naturaleza de la casilla 31 (solo la 31)
+	 *  que pasa de blanco a pozo
+	 * @param tablero
+	 */
+	public static void colocarPozo(Casilla[] tablero) {}
 
 }
